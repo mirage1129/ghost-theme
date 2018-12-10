@@ -4,7 +4,7 @@ APP="lani"
 
 BUILD_HOST="kunvince.com"
 BUILD_USER="deploy"
-BUILD_AT="/tmp/edeliver/$APP/builds"
+BUILD_AT="/home/deploy/apps/$APP/builds"
 
 START_DEPLOY=true
 CLEAN_DEPLOY=true
@@ -14,7 +14,7 @@ GIT_CLEAN_PATHS="_build rel priv/static"
 
 PRODUCTION_HOSTS="kunvince.com"
 PRODUCTION_USER="deploy"
-DELIVER_TO="/home/deploy/apps"
+DELIVER_TO="/home/deploy/apps/$APP/release"
 
 # For Phoenix projects, symlink prod.secret.exs to our tmp source
 pre_erlang_get_and_update_deps() {

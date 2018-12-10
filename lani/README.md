@@ -22,7 +22,8 @@ Now you can visit [`localhost:8080`](http://localhost:8080) from your browser.
 			- Step 2-5: skip
 			- Step 7: Replace `sudo app update` with `sudo apt update`
 			- Step 7: replace`pgsql` command with `psql`
-			- Step 9: After step 9, type `echo ".deliver/releases/" >> .gitignore` command in project folder to add .deliver releases to git ignore. Then add and commit the project before deploying in step 10
+			- Step 9: MAke change to build at and deliver to in .deliver/config 
+			After step 9, type `echo ".deliver/releases/" >> .gitignore` command in project folder to add .deliver releases to git ignore. Then add and commit the project before deploying in step 10
 		 
 
 		iii. Install Nginx
