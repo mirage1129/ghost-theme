@@ -1,0 +1,42 @@
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Creating table: posts","time":"2019-12-05T13:29:20.699Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Creating table: posts_meta","time":"2019-12-05T13:29:20.706Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Creating table: users","time":"2019-12-05T13:29:20.717Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Creating table: posts_authors","time":"2019-12-05T13:29:20.736Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Creating table: roles","time":"2019-12-05T13:29:20.749Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Creating table: roles_users","time":"2019-12-05T13:29:20.754Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Creating table: permissions","time":"2019-12-05T13:29:20.769Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Creating table: permissions_users","time":"2019-12-05T13:29:20.779Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Creating table: permissions_roles","time":"2019-12-05T13:29:20.784Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Creating table: permissions_apps","time":"2019-12-05T13:29:20.788Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Creating table: settings","time":"2019-12-05T13:29:20.793Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Creating table: tags","time":"2019-12-05T13:29:20.800Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Creating table: posts_tags","time":"2019-12-05T13:29:20.806Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Creating table: apps","time":"2019-12-05T13:29:20.816Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Creating table: app_settings","time":"2019-12-05T13:29:20.830Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Creating table: app_fields","time":"2019-12-05T13:29:20.838Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Creating table: invites","time":"2019-12-05T13:29:20.851Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Creating table: brute","time":"2019-12-05T13:29:20.869Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Creating table: webhooks","time":"2019-12-05T13:29:20.884Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Creating table: sessions","time":"2019-12-05T13:29:20.888Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Creating table: integrations","time":"2019-12-05T13:29:20.903Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Creating table: api_keys","time":"2019-12-05T13:29:20.919Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Creating table: mobiledoc_revisions","time":"2019-12-05T13:29:20.930Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Creating table: members","time":"2019-12-05T13:29:20.949Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Creating table: members_stripe_customers","time":"2019-12-05T13:29:20.961Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Creating table: members_stripe_customers_subscriptions","time":"2019-12-05T13:29:20.966Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Creating table: actions","time":"2019-12-05T13:29:20.971Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Creating table: emails","time":"2019-12-05T13:29:20.977Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Model: Tag","time":"2019-12-05T13:29:21.001Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Model: Role","time":"2019-12-05T13:29:21.054Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Model: Permission","time":"2019-12-05T13:29:21.136Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Model: User","time":"2019-12-05T13:29:21.568Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Model: Post","time":"2019-12-05T13:29:22.574Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Model: Integration","time":"2019-12-05T13:29:22.963Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Relation: Role to Permission","time":"2019-12-05T13:29:23.183Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Relation: Post to Tag","time":"2019-12-05T13:29:23.580Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Relation: User to Role","time":"2019-12-05T13:29:23.608Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Ghost is running in development...","time":"2019-12-05T13:29:25.462Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Listening on: 127.0.0.1:2370","time":"2019-12-05T13:29:25.463Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Url configured as: http://localhost:2370/","time":"2019-12-05T13:29:25.464Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Ctrl+C to shut down","time":"2019-12-05T13:29:25.464Z","v":0}
+{"name":"Log","hostname":"Merajs-MacBook-Pro.local","pid":1161,"level":30,"msg":"Ghost boot 7.192s","time":"2019-12-05T13:29:25.467Z","v":0}
