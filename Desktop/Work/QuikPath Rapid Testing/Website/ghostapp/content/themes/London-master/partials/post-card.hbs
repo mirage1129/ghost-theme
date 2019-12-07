@@ -4,7 +4,7 @@ On every 3rd post, add a special .post-card-large class and load a large image
 For the rest, just output a smaller background image
 
 --}}
-
+{{!-- 
 {{#has number="nth:3"}}
 <article class="post-card {{post_class}} post-card-large {{#if feature_image}}with-image" style="background-image: url({{img_url feature_image size="xl"}}){{else}}no-image{{/if}}">
 {{else}}
@@ -15,4 +15,58 @@ For the rest, just output a smaller background image
             <h2 class="post-card-title">{{title}}</h2>
         </div>
     </a>
-</article>
+</article> --}}
+
+{{!-- <article class="post-card {{post_class}} {{#if feature_image}}with-image" style="background-image: url({{img_url feature_image size="l"}}){{else}}no-image{{/if}}">
+    <a class="post-card-link" href="{{url}}">
+        <div class="post-card-content">
+            <h2 class="post-card-title">{{title}}</h2>
+        </div>
+    </a>
+</article> --}}
+
+<div class="tile is-ancestor">
+  <div class="tile is-vertical is-8">
+    <div class="tile">
+      <div class="tile is-parent is-vertical">
+        <article class="tile is-child notification is-primary">
+          <p class="title">Vertical...</p>
+          <p class="subtitle">Top tile</p>
+        </article>
+        <article class="tile is-child notification is-warning">
+          <p class="title">...tiles</p>
+          <p class="subtitle">Bottom tile</p>
+        </article>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child notification is-info">
+          <p class="title">Middle tile</p>
+          <p class="subtitle">With an image</p>
+          <figure class="image is-4by3">
+            <img src="https://bulma.io/images/placeholders/640x480.png">
+          </figure>
+        </article>
+      </div>
+    </div>
+    <div class="tile is-parent">
+      <article class="tile is-child notification is-danger">
+        <p class="title">Wide tile</p>
+        <p class="subtitle">Aligned with the right tile</p>
+        <div class="content">
+          <!-- Content -->
+        </div>
+      </article>
+    </div>
+  </div>
+  <div class="tile is-parent">
+    <article class="tile is-child notification is-success">
+      <div class="content">
+        <p class="title">Tall tile</p>
+        <p class="subtitle">With even more content</p>
+        <div class="content">
+          <!-- Content -->
+        </div>
+      </div>
+    </article>
+  </div>
+</div>
