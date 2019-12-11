@@ -59,9 +59,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    // color: #fff;
     color:#9849A5;
-    // background: #9849A5;
     background: white;
     opacity: 1;
     transition: opacity 0.5s cubic-bezier(.33,0,.2,1);
@@ -71,16 +69,11 @@
     opacity: 0;
 }
 
-@media (max-width: 700px) {
-  .post-card.with-image .post-card-content {
-      opacity: 1;
-  }
-}
-
 .post-card-link:hover .post-card-content {
     opacity: 1;
     transition: opacity 0.3s cubic-bezier(.33,0,.2,1);
 }
+
 
 // this is the the size of text after you hover on a pic
 .post-card-title {
@@ -90,6 +83,12 @@
     max-width: 70%;
     text-align: center;
     transition: all 0.3s cubic-bezier(.33,0,.2,1);
+}
+
+@media (max-width: 700px) {
+    .post-card-title {
+        display: none;
+        }
 }
 
 /* Posts without images */
@@ -155,6 +154,16 @@
     margin: 0 0 3vw;
     color: var(--color-base);
     text-align: center;
+    font-size: 3rem;
+}
+
+@media (max-width: 500px) {
+    .post-content-title {
+        margin: 0 0 3vw;
+        color: var(--color-base);
+        text-align: center;
+        font-size: 2rem;
+    }
 }
 
 .post-content-excerpt {
