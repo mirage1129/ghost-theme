@@ -7225,7 +7225,9 @@ label.panel-block {
 .post-content-title {
   margin: 0 0 3vw;
   color: var(--color-base);
-  text-align: center; }
+  text-align: center;
+  font-size: 2.5rem
+}
 
 .post-content-excerpt {
   margin: -2vw 0 3vw;
@@ -7385,3 +7387,7 @@ label.panel-block {
 
 .bgpic {
   width: 100%; }
+
+@media (max-width: 500px) {
+    .post-content-title {
+    font-size: 2rem; } }
