@@ -58,65 +58,31 @@
   </nav> --}}
 
 
-
-
-
-    <header class="site-head">
-        <a class="nav-burger" href="#">
-          <div class="hamburger hamburger--collapse" aria-label="Menu" role="button" aria-controls="navigation">
-            <div class="hamburger-box">
-              <div class="hamburger-inner">
-              </div>
-            </div>
-          </div>
-        </a>
-
-      <div class="navbar MainMenu is-fixed-top">
-        
-        
-        <div class="navbar-brand">
-          <a class="navbar-item" href="/mrsfood">
-            <img src="/mrsfood/assets/images/mrs_food_logo.svg" alt="Mrs. Food" height="30" />
-          </a>   
-        </div>
-
-        <div class="navbar-menu">
-          <div class="navbar-end" id="swup">   
-            {{!-- {{navigation}} --}}
-            <a class="navbar-item" href="https://www.quikpath.io/">
-              QuikPath
-            </a>
-
-            <div class="navbar-item">
-              <div class="field is-grouped">
-                <p class="control">
-                  <a class="button header-button" href="#subbutton">
-                    Subscribe
-                  </a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-                {{!-- <div class="site-head-left">
+ <header class="site-head navbar is-fixed-top">
+            <div class="site-head-container">
+                <a class="nav-burger" href="#">
+                    <div class="hamburger hamburger--collapse" aria-label="Menu" role="button" aria-controls="navigation">
+                        <div class="hamburger-box">
+                            <div class="hamburger-inner"></div>
+                        </div>
+                    </div>
+                </a>
+                <div class="site-head-left">
+                    {{navigation}}
+                </div>
+                <div class="site-head-center">
                     {{#if @site.logo}}
                     <a class="site-head-logo" href="{{@site.url}}"><img src="{{@site.logo}}" alt="{{@site.title}}" /></a>
                     {{else}}
                     <a class="site-head-logo" href="{{@site.url}}">{{@site.title}}</a>
                     {{/if}}
                 </div>
-                <nav id="swup" class="site-head-center">
-                    {{navigation}}
-                </nav> --}}
-            <div class="site-head-right">
-              {{navigation}}
-            </div>
                 
-          
+            </div>
+        </header>
+
+
     
-    </header>
 
 
 
