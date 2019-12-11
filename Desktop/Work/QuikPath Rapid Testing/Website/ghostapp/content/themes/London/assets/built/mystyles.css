@@ -7393,3 +7393,6 @@ label.panel-block {
 
 .bgpic {
   width: 100%; }
+
+.right-menu {
+  display: inline-block; }
