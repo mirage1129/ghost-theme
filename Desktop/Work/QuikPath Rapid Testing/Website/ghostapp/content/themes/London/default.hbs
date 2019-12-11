@@ -58,28 +58,48 @@
   </nav> --}}
 
 
- <header class="site-head navbar is-fixed-top">
-            <div class="site-head-container">
+            <header class="site-head">
+              <div class="site-head-container navbar is-fixed-top">
                 <a class="nav-burger" href="#">
-                    <div class="hamburger hamburger--collapse" aria-label="Menu" role="button" aria-controls="navigation">
-                        <div class="hamburger-box">
-                            <div class="hamburger-inner"></div>
-                        </div>
+                  <div class="hamburger hamburger--collapse" aria-label="Menu" role="button" aria-controls="navigation">
+                    <div class="hamburger-box">
+                        <div class="hamburger-inner"></div>
                     </div>
+                  </div>
                 </a>
-                <div class="site-head-left">
-                    {{navigation}}
+                {{!-- <div class="site-head-left"> 
+                </div> --}}
+                <div class="navbar-brand">
+                  <a class="navbar-item" href="/mrsfood">
+                    <img src="/mrsfood/assets/images/mrs_food_logo.svg" alt="Mrs. Food" height="30" />
+                  </a>   
                 </div>
-                <div class="site-head-center">
+
+
+
+                {{!-- <div class="site-head-center">
                     {{#if @site.logo}}
                     <a class="site-head-logo" href="{{@site.url}}"><img src="{{@site.logo}}" alt="{{@site.title}}" /></a>
                     {{else}}
                     <a class="site-head-logo" href="{{@site.url}}">{{@site.title}}</a>
                     {{/if}}
+                </div> --}}
+                {{!-- <div class="site-head-right"> --}}
+                <div class="navbar-end">
+                    {{navigation}}
+                  <div class="navbar-item">
+                    <div class="field is-grouped">
+                      <p class="control">
+                        <a class="button header-button" href="#subbutton">
+                          Subscribe
+                        </a>
+                      </p>
+                    </div>
+                  </div>
                 </div>
-                
-            </div>
-        </header>
+                {{!-- </div> --}}
+              </div>
+            </header>
 
 
     
